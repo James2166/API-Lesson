@@ -1,0 +1,62 @@
+body {
+    background-color: #33c58e;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.cards {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card {
+    background-image: linear-gradient(#63fd99, #276174);
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.4);
+    margin: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 280px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.business-name {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+
+.business-address {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.business-description {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+}
