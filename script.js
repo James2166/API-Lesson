@@ -1,19 +1,7 @@
 const cardsContainer = document.querySelector('.cards')
-// const logo = document.getElementById('logo1');
-// const business = document.getElementById('business-name');
-// const description = document.getElementById('description');
-// const address = document.getElementById('address');
 
 let data = [];
 let i = 0;
-
-// function businessCard() {
-//     logo.src = data.business[i].imageurl;
-//     business.textContent = data.business[i].name;
-//     address.textContent = data.business[i].address;
-//     description.textContent = data.business[i].description;
-//     console.log(data.business[i]);
-// };
 
 function createCards() {
 
